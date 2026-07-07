@@ -1,0 +1,14 @@
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\bin\Debug\net8.0\DT_1.exe
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\bin\Debug\net8.0\DT_1.deps.json
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\bin\Debug\net8.0\DT_1.runtimeconfig.json
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\bin\Debug\net8.0\DT_1.dll
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\bin\Debug\net8.0\DT_1.pdb
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\DT_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\DT_1.AssemblyInfoInputs.cache
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\DT_1.AssemblyInfo.cs
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\DT_1.csproj.CoreCompileInputs.cache
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\DT_1.dll
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\refint\DT_1.dll
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\DT_1.pdb
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\DT_1.genruntimeconfig.cache
+C:\Users\sonik\source\repos\NORBIT\GeneralFile\1_DataTypes\DT_1\obj\Debug\net8.0\ref\DT_1.dll
