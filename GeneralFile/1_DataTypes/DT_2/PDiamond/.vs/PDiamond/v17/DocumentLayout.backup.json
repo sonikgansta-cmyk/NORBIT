@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\1_DataTypes\\DT_2\\PDiamond\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{79DC9E86-AF29-439F-9F55-BC19F951C317}|PDiamond.csproj|c:\\users\\sonik\\source\\repos\\norbit\\01\\norbit\\generalfile\\1_datatypes\\dt_2\\pdiamond\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79DC9E86-AF29-439F-9F55-BC19F951C317}|PDiamond.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\1_DataTypes\\DT_2\\PDiamond\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\1_DataTypes\\DT_2\\PDiamond\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAzwDUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T15:51:26.724Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

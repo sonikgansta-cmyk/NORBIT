@@ -1,0 +1,8 @@
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\bin\Debug\PDiamond.exe.config
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\bin\Debug\PDiamond.exe
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\bin\Debug\PDiamond.pdb
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\obj\Debug\PDiamond.csproj.AssemblyReference.cache
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\obj\Debug\PDiamond.csproj.CoreCompileInputs.cache
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\obj\Debug\PDiamond.exe
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\obj\Debug\PDiamond.pdb
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\1_DataTypes\DT_2\PDiamond\obj\Debug\PDiamond.exe.config
