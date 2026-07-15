@@ -1,0 +1,8 @@
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\bin\Debug\CommodityScience.exe.config
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\bin\Debug\CommodityScience.exe
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\bin\Debug\CommodityScience.pdb
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\obj\Debug\CommodityScience.csproj.AssemblyReference.cache
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\obj\Debug\CommodityScience.csproj.CoreCompileInputs.cache
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\obj\Debug\CommodityScience.exe
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\obj\Debug\CommodityScience.pdb
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\2_ООП\CommodityScience\obj\Debug\CommodityScience.exe.config
