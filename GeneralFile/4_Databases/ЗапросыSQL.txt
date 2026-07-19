@@ -1,0 +1,71 @@
+	1. Выборка данных с фильтрацией, сортировкой
+
+USE Sport;
+GO
+
+-- Активности более 30 минут. Сортировка по дате (сначала новые)
+SELECT Id, ActivityDate, DurationMinutes, Notes, CaloriesBurned
+FROM Activities
+WHERE DurationMinutes > 30
+ORDER BY ActivityDate DESC;
+GO
+
+
+	2. Удаление, изменение данных
+
+USE Sport;
+GO
+
+UPDATE Activities
+SET CaloriesBurned = 260.0,
+    Notes = N'Самочувствие отличное'
+WHERE ActivityDate = '2026-07-15' AND DurationMinutes = 40;
+GO
+
+SELECT * FROM Activities WHERE ActivityDate = '2026-07-15' AND DurationMinutes = 40;
+GO
+
+DELETE FROM Activities
+WHERE DurationMinutes = 25;
+GO
+
+SELECT * FROM Activities;
+GO
+
+
+	3. Выборка с группировкой
+
+USE Sport;
+GO
+
+--Показывает сколько упражнений в каждой программе
+SELECT 
+    p.Name AS Программа,
+    COUNT(e.Id) AS КоличествоУпражнений
+FROM Programs p
+LEFT JOIN Exercises e ON e.ProgramId = p.Id
+GROUP BY p.Name
+ORDER BY КоличествоУпражнений DESC;
+
+
+	4. Выборка из нескольких связанных таблиц (левое, правое соединение, пересечение)
+
+USE Sport;
+GO
+
+SELECT p.Name AS Программа, e.Name AS Упражнение
+FROM Programs p
+INNER JOIN Exercises e ON e.ProgramId = p.Id;
+GO
+
+SELECT p.Name AS Программа, e.Name AS Упражнение
+FROM Programs p
+LEFT JOIN Exercises e ON e.ProgramId = p.Id;
+GO
+
+SELECT e.Name AS Упражнение, mg.Name AS ГруппаМышц
+FROM Exercises e
+JOIN ExerciseMuscleGroups emg ON emg.ExerciseId = e.Id
+RIGHT JOIN MuscleGroups mg ON mg.Id = emg.MuscleGroupId
+ORDER BY mg.Name;
+GO
