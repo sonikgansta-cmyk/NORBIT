@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\5_DB\u0026Code\\DbSport\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9061BF73-CFF7-4C89-9F1A-7261FFE0A1ED}|DbSport.csproj|c:\\users\\sonik\\source\\repos\\norbit\\01\\norbit\\generalfile\\5_db\u0026code\\dbsport\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9061BF73-CFF7-4C89-9F1A-7261FFE0A1ED}|DbSport.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9061BF73-CFF7-4C89-9F1A-7261FFE0A1ED}|DbSport.csproj|c:\\users\\sonik\\source\\repos\\norbit\\01\\norbit\\generalfile\\5_db\u0026code\\dbsport\\repositories\\ef\\activityefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9061BF73-CFF7-4C89-9F1A-7261FFE0A1ED}|DbSport.csproj|solutionrelative:repositories\\ef\\activityefrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9061BF73-CFF7-4C89-9F1A-7261FFE0A1ED}|DbSport.csproj|c:\\users\\sonik\\source\\repos\\norbit\\01\\norbit\\generalfile\\5_db\u0026code\\dbsport\\sportmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{9061BF73-CFF7-4C89-9F1A-7261FFE0A1ED}|DbSport.csproj|solutionrelative:sportmodel.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActivityEfRepository.cs",
+              "DocumentMoniker": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\5_DB\u0026Code\\DbSport\\Repositories\\Ef\\ActivityEfRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Ef\\ActivityEfRepository.cs",
+              "ToolTip": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\5_DB\u0026Code\\DbSport\\Repositories\\Ef\\ActivityEfRepository.cs",
+              "RelativeToolTip": "Repositories\\Ef\\ActivityEfRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T11:24:10.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SportModel.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\5_DB\u0026Code\\DbSport\\SportModel.edmx",
+              "RelativeDocumentMoniker": "SportModel.edmx",
+              "ToolTip": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\5_DB\u0026Code\\DbSport\\SportModel.edmx [Diagram1]",
+              "RelativeToolTip": "SportModel.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2026-07-20T10:41:46.959Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\5_DB\u0026Code\\DbSport\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\sonik\\source\\repos\\NORBIT\\01\\NORBIT\\GeneralFile\\5_DB\u0026Code\\DbSport\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADcCAAAAAAAAAAAiwEMCAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-19T22:52:18.169Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

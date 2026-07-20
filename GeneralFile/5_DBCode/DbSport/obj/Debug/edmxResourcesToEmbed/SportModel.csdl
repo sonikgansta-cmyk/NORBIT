@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DbSport.EfModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Activities">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="ExerciseId" Type="Guid" Nullable="false" />
+    <Property Name="ActivityDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="DurationMinutes" Type="Int32" Nullable="false" />
+    <Property Name="Notes" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="CaloriesBurned" Type="Decimal" Precision="6" Scale="2" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Exercises" Relationship="Self.FK_Activities_Exercises" FromRole="Activities" ToRole="Exercises" />
+  </EntityType>
+  <EntityType Name="Exercises">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="ProgramId" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Activities" Relationship="Self.FK_Activities_Exercises" FromRole="Exercises" ToRole="Activities" />
+    <NavigationProperty Name="Programs" Relationship="Self.FK_Exercises_Programs" FromRole="Exercises" ToRole="Programs" />
+    <NavigationProperty Name="MuscleGroups" Relationship="Self.ExerciseMuscleGroups" FromRole="Exercises" ToRole="MuscleGroups" />
+  </EntityType>
+  <EntityType Name="MuscleGroups">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Exercises" Relationship="Self.ExerciseMuscleGroups" FromRole="MuscleGroups" ToRole="Exercises" />
+  </EntityType>
+  <EntityType Name="Programs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="UserId" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <Property Name="CreatedAt" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Exercises" Relationship="Self.FK_Exercises_Programs" FromRole="Programs" ToRole="Exercises" />
+    <NavigationProperty Name="Users" Relationship="Self.FK_Programs_Users" FromRole="Programs" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="200" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RegisteredAt" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="IsActive" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Programs" Relationship="Self.FK_Programs_Users" FromRole="Users" ToRole="Programs" />
+  </EntityType>
+  <Association Name="FK_Activities_Exercises">
+    <End Role="Exercises" Type="Self.Exercises" Multiplicity="1" />
+    <End Role="Activities" Type="Self.Activities" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exercises">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Activities">
+        <PropertyRef Name="ExerciseId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Exercises_Programs">
+    <End Role="Programs" Type="Self.Programs" Multiplicity="1" />
+    <End Role="Exercises" Type="Self.Exercises" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Programs">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Exercises">
+        <PropertyRef Name="ProgramId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Programs_Users">
+    <End Role="Users" Type="Self.Users" Multiplicity="1" />
+    <End Role="Programs" Type="Self.Programs" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Programs">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ExerciseMuscleGroups">
+    <End Role="Exercises" Type="Self.Exercises" Multiplicity="*" />
+    <End Role="MuscleGroups" Type="Self.MuscleGroups" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="SportEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Activities" EntityType="Self.Activities" />
+    <EntitySet Name="Exercises" EntityType="Self.Exercises" />
+    <EntitySet Name="MuscleGroups" EntityType="Self.MuscleGroups" />
+    <EntitySet Name="Programs" EntityType="Self.Programs" />
+    <EntitySet Name="Users" EntityType="Self.Users" />
+    <AssociationSet Name="FK_Activities_Exercises" Association="Self.FK_Activities_Exercises">
+      <End Role="Exercises" EntitySet="Exercises" />
+      <End Role="Activities" EntitySet="Activities" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Exercises_Programs" Association="Self.FK_Exercises_Programs">
+      <End Role="Programs" EntitySet="Programs" />
+      <End Role="Exercises" EntitySet="Exercises" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Programs_Users" Association="Self.FK_Programs_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Programs" EntitySet="Programs" />
+    </AssociationSet>
+    <AssociationSet Name="ExerciseMuscleGroups" Association="Self.ExerciseMuscleGroups">
+      <End Role="Exercises" EntitySet="Exercises" />
+      <End Role="MuscleGroups" EntitySet="MuscleGroups" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

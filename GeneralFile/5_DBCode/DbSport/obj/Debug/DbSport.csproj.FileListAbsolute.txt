@@ -1,0 +1,13 @@
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\bin\Debug\DbSport.exe.config
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\bin\Debug\DbSport.exe
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\bin\Debug\DbSport.pdb
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\obj\Debug\DbSport.csproj.AssemblyReference.cache
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\obj\Debug\DbSport.csproj.CoreCompileInputs.cache
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\obj\Debug\DbSport.exe
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\obj\Debug\DbSport.pdb
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\obj\Debug\DbSport.exe.config
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\bin\Debug\EntityFramework.dll
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\bin\Debug\EntityFramework.xml
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\sonik\source\repos\NORBIT\01\NORBIT\GeneralFile\5_DB&Code\DbSport\obj\Debug\DbSport.csproj.Up2Date
